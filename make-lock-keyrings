@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cc lock-keyrings.c -o lock-keyrings -Wall $(pkg-config gnome-keyring-1 --cflags --libs)
