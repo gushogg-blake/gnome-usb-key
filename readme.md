@@ -40,7 +40,7 @@ img=$1
 unzip -PPASSWORD -p $img file 2>/dev/null
 ```
 
-Example 
+Example startup script:
 
 ```bash
 #!/bin/bash
